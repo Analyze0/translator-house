@@ -1,0 +1,942 @@
+function translate(e) {
+  if (translated.includes("hon")) {
+    translated = translated.replaceAll("hon", "she");
+  }
+  if (translated.includes("Hon ")) {
+    translated = translated.replaceAll("Hon ", "She ");
+  }
+  if (translated.includes("dum")) {
+    translated = translated.replaceAll("dum", "stupid");
+  }
+  if (translated.includes("Dum ")) {
+    translated = translated.replaceAll("Dum ", "Stupid ");
+  }
+  if (translated.includes("ett bord")) {
+    translated = translated.replaceAll("ett bord", "a table");
+  }
+  if (translated.includes("Ett bord")) {
+    translated = translated.replaceAll("Ett bord", "A table");
+  }
+  if (translated.includes("fan dig")) {
+    translated = translated.replaceAll("fan dig", "fuck you");
+  }
+  if (translated.includes("Fan dig")) {
+    translated = translated.replaceAll("Fan dig", "Fuck you");
+  }
+  if (translated.includes("Hur mår du")) {
+    translated = translated.replaceAll("Hur mår du", "How are you");
+  }
+  if (translated.includes("hur mår du")) {
+    translated = translated.replaceAll("hur mår du", "how are you");
+  }
+  if (translated.includes("hur")) {
+    translated = translated.replaceAll("hur", "how");
+  }
+  if (translated.includes("Hur")) {
+    translated = translated.replaceAll("Hur", "How");
+  }
+  if (translated.includes("är")) {
+    translated = translated.replaceAll("är", "are");
+  }
+  if (translated.includes(" i ")) {
+    translated = translated.replaceAll(" i ", " in ");
+  }
+  if (translated.includes("bor i")) {
+    translated = translated.replaceAll("bor i", "live in");
+  }
+  if (translated.includes("Bo r i ")) {
+    translated = translated.replaceAll("Bo r i ", "Live in");
+  }
+  if (translated.includes("Sverige")) {
+    translated = translated.replaceAll("Sverige", "Sweden");
+  }
+  if (translated.includes("sverige")) {
+    translated = translated.replaceAll("sverige", "sweden");
+  }
+  if (translated.includes("ditt ")) {
+    translated = translated.replaceAll("ditt ", "your ");
+  }
+  if (translated.includes("Ditt ")) {
+    translated = translated.replaceAll("Ditt ", "Your ");
+  }
+  if (translated.includes(". Jag är")) {
+    translated = translated.replaceAll(". Jag är", ". I am");
+  }
+  if (translated.includes("jag är")) {
+    translated = translated.replaceAll("jag är", "i am");
+  }
+  if (translated.includes("är ")) {
+    translated = translated.replaceAll("är ", "am ");
+  }
+  if (translated.includes("Är ")) {
+    translated = translated.replaceAll("Är ", "Am ");
+  }
+  if (translated.includes(".Jag är")) {
+    translated = translated.replaceAll(".Jag är", ".I am");
+  }
+  if (translated.includes(". Jag")) {
+    translated = translated.replaceAll(". Jag", ". I");
+  }
+  if (translated.includes(".I")) {
+    translated = translated.replaceAll(".I", ". I");
+  }
+  if (translated.includes("jag är")) {
+    translated = translated.replaceAll("jag är", "i am");
+  }
+  if (translated.includes("Jag är")) {
+    translated = translated.replaceAll("Jag är", "I am");
+  }
+  if (translated.includes("jag är")) {
+    translated = translated.replaceAll("jag är", "i am");
+  }
+  if (translated.includes("jag är")) {
+    translated = translated.replaceAll("jag är", "i am");
+  }
+  if (translated.includes(" v")) {
+    translated = translated.replaceAll(" v", " are ");
+  }
+  if (translated.includes(" in ")) {
+    translated = translated.replaceAll(" in ", " i ");
+  }
+  if (translated.includes("i centrum")) {
+    translated = translated.replaceAll("i centrum", "downtown");
+  }
+  if (translated.includes("i centrum ")) {
+    translated = translated.replaceAll("i centrum ", "Downtown ");
+  }
+  if (translated.includes("bor ")) {
+    translated = translated.replaceAll("bor ", "live ");
+  }
+  if (translated.includes("Bor ")) {
+    translated = translated.replaceAll("Bor ", "Live ");
+  }
+  if (translated.includes("kanske ")) {
+    translated = translated.replaceAll("kanske ", "maybe ");
+  }
+  if (translated.includes("Kanske ")) {
+    translated = translated.replaceAll("Kanske ", "Maybe ");
+  }
+  if (translated.includes("svenska ")) {
+    translated = translated.replaceAll("svenska ", "swedish ");
+  }
+  if (translated.includes("Svenska ")) {
+    translated = translated.replaceAll("Svenska ", "Swedish ");
+  }
+  if (translated.includes("boll ")) {
+    translated = translated.replaceAll("boll ", "ball ");
+  }
+  if (translated.includes("Boll ")) {
+    translated = translated.replaceAll("Boll ", "Ball ");
+  }
+  if (translated.includes("bollar")) {
+    translated = translated.replaceAll("bollar", "balls");
+  }
+  if (translated.includes("Bollar ")) {
+    translated = translated.replaceAll("Bollar ", "Balls ");
+  }
+  if (translated.includes("hungrig")) {
+    translated = translated.replaceAll("hungrig", "hungry");
+  }
+  if (translated.includes("Hungrig ")) {
+    translated = translated.replaceAll("Hungrig ", "Hungry ");
+  }
+  if (translated.includes("kuk")) {
+    translated = translated.replaceAll("kuk", "cock");
+  }
+  if (translated.includes("Kuk ")) {
+    translated = translated.replaceAll("Kuk ", "Cock ");
+  }
+  if (translated.includes("rumpa")) {
+    translated = translated.replaceAll("rumpa", "butt");
+  }
+  if (translated.includes("Rumpa ")) {
+    translated = translated.replaceAll("Rumpa ", "Butt ");
+  }
+  if (translated.includes(" oc  h ")) {
+    translated = translated.replaceAll(" oc  h ", " and ");
+  }
+  if (translated.includes(" Oc  h ")) {
+    translated = translated.replaceAll(" Oc  h ", " And ");
+  }
+  if (translated.includes(",oc  h ")) {
+    translated = translated.replaceAll(",oc  h ", ",and ");
+  }
+  if (translated.includes(",Oc  h ")) {
+    translated = translated.replaceAll(",Oc  h ", ",And ");
+  }
+  if (translated.includes(", oc  h ")) {
+    translated = translated.replaceAll(", oc  h ", ", and ");
+  }
+  if (translated.includes(", Oc  h ")) {
+    translated = translated.replaceAll(", Oc  h ", ", And ");
+  }
+  if (translated.includes(" en ")) {
+    translated = translated.replaceAll(" en ", " a ");
+  }
+  if (translated.includes("Vatten ")) {
+    translated = translated.replaceAll("Vatten ", "Water ");
+  }
+  if (translated.includes("vatten")) {
+    translated = translated.replaceAll("vatten", "water");
+  }
+  if (translated.includes("vatten")) {
+    translated = translated.replaceAll("vatten", "water");
+  }
+  if (translated.includes("tycker om")) {
+    translated = translated.replaceAll("tycker om", "like");
+  }
+  if (translated.includes("Tycker om")) {
+    translated = translated.replaceAll("Tycker om", "Like");
+  }
+  if (translated.includes("vatten")) {
+    translated = translated.replaceAll("vatten", "water");
+  }
+  if (translated.includes("ma  n")) {
+    translated = translated.replaceAll("ma  n", "man");
+  }
+  if (translated.includes("Ma  n")) {
+    translated = translated.replaceAll("Ma  n", "Man");
+  }
+  if (translated.includes("ma  n")) {
+    translated = translated.replaceAll("ma  n", "man");
+  }
+  if (translated.includes("Ma  n")) {
+    translated = translated.replaceAll("Ma  n", "Man");
+  }
+  if (translated.includes("fr  u")) {
+    translated = translated.replaceAll("fr  u", "wife");
+  }
+  if (translated.includes("Fr  u")) {
+    translated = translated.replaceAll("Fr  u", "Wife");
+  }
+  if (translated.includes("ok  ej")) {
+    translated = translated.replaceAll("ok  ej", "okay");
+  }
+  if (translated.includes("Ok  ej")) {
+    translated = translated.replaceAll("Ok  ej", "Okay");
+  }
+  if (translated.includes("he  j")) {
+    translated = translated.replaceAll("he  j", "hey");
+  }
+  if (translated.includes("He  j")) {
+    translated = translated.replaceAll("He  j", "Hey");
+  }
+  if (translated.includes("he  j ")) {
+    translated = translated.replaceAll("he  j ", "hello ");
+  }
+  if (translated.includes("He  j ")) {
+    translated = translated.replaceAll("He  j ", "Hello ");
+  }
+  if (translated.includes("mi  n ")) {
+    translated = translated.replaceAll("mi  n ", "my ");
+  }
+  if (translated.includes("Mi  n ")) {
+    translated = translated.replaceAll("Mi  n ", "My ");
+  }
+  if (translated.includes("är ")) {
+    translated = translated.replaceAll("är ", "is ");
+  }
+  if (translated.includes("pappa ")) {
+    translated = translated.replaceAll("pappa ", "daddy ");
+  }
+  if (translated.includes("vi ")) {
+    translated = translated.replaceAll("vi ", "we ");
+  }
+  if (translated.includes("Vi ")) {
+    translated = translated.replaceAll("Vi ", "We ");
+  }
+  if (translated.includes("chef ")) {
+    translated = translated.replaceAll("chef ", "boss ");
+  }
+  if (translated.includes("Chef ")) {
+    translated = translated.replaceAll("Chef ", "Boss ");
+  }
+  if (translated.includes("i centrum")) {
+    translated = translated.replaceAll("i centrum", "downtown");
+  }
+  if (translated.includes("i centrum ")) {
+    translated = translated.replaceAll("i centrum ", "Downtown ");
+  }
+  if (translated.includes("bor ")) {
+    translated = translated.replaceAll("bor ", "live ");
+  }
+  if (translated.includes("Bor ")) {
+    translated = translated.replaceAll("Bor ", "Live ");
+  }
+  if (translated.includes("kanske ")) {
+    translated = translated.replaceAll("kanske ", "maybe ");
+  }
+  if (translated.includes("Kanske ")) {
+    translated = translated.replaceAll("Kanske ", "Maybe ");
+  }
+  if (translated.includes("svenska ")) {
+    translated = translated.replaceAll("svenska ", "swedish ");
+  }
+  if (translated.includes("Svenska ")) {
+    translated = translated.replaceAll("Svenska ", "Swedish ");
+  }
+  if (translated.includes("boll ")) {
+    translated = translated.replaceAll("boll ", "ball ");
+  }
+  if (translated.includes("Boll ")) {
+    translated = translated.replaceAll("Boll ", "Ball ");
+  }
+  if (translated.includes("bollar")) {
+    translated = translated.replaceAll("bollar", "balls");
+  }
+  if (translated.includes("Bollar ")) {
+    translated = translated.replaceAll("Bollar ", "Balls ");
+  }
+  if (translated.includes("hungrig")) {
+    translated = translated.replaceAll("hungrig", "hungry");
+  }
+  if (translated.includes("Hungrig ")) {
+    translated = translated.replaceAll("Hungrig ", "Hungry ");
+  }
+  if (translated.includes("kuk")) {
+    translated = translated.replaceAll("kuk", "cock");
+  }
+  if (translated.includes("Kuk ")) {
+    translated = translated.replaceAll("Kuk ", "Cock ");
+  }
+  if (translated.includes("rumpa")) {
+    translated = translated.replaceAll("rumpa", "butt");
+  }
+  if (translated.includes("Rumpa ")) {
+    translated = translated.replaceAll("Rumpa ", "Butt ");
+  }
+  if (translated.includes(" oc  h ")) {
+    translated = translated.replaceAll(" oc  h ", " and ");
+  }
+  if (translated.includes(" Oc  h ")) {
+    translated = translated.replaceAll(" Oc  h ", " And ");
+  }
+  if (translated.includes(",oc  h ")) {
+    translated = translated.replaceAll(",oc  h ", ",and ");
+  }
+  if (translated.includes(",Oc  h ")) {
+    translated = translated.replaceAll(",Oc  h ", ",And ");
+  }
+  if (translated.includes(", oc  h ")) {
+    translated = translated.replaceAll(", oc  h ", ", and ");
+  }
+  if (translated.includes(", Oc  h ")) {
+    translated = translated.replaceAll(", Oc  h ", ", And ");
+  }
+  if (translated.includes(" en ")) {
+    translated = translated.replaceAll(" en ", " a ");
+  }
+  if (translated.includes("Vatten ")) {
+    translated = translated.replaceAll("Vatten ", "Water ");
+  }
+  if (translated.includes("vatten")) {
+    translated = translated.replaceAll("vatten", "water");
+  }
+  if (translated.includes("vatten")) {
+    translated = translated.replaceAll("vatten", "water");
+  }
+  if (translated.includes("tycker om")) {
+    translated = translated.replaceAll("tycker om", "like");
+  }
+  if (translated.includes("Tycker om")) {
+    translated = translated.replaceAll("Tycker om", "Like");
+  }
+  if (translated.includes("vatten")) {
+    translated = translated.replaceAll("vatten", "water");
+  }
+  if (translated.includes("ma  n")) {
+    translated = translated.replaceAll("ma  n", "man");
+  }
+  if (translated.includes("Ma  n")) {
+    translated = translated.replaceAll("Ma  n", "Man");
+  }
+  if (translated.includes("ma  n")) {
+    translated = translated.replaceAll("ma  n", "man");
+  }
+  if (translated.includes("Ma  n")) {
+    translated = translated.replaceAll("Ma  n", "Man");
+  }
+  if (translated.includes("fr  u")) {
+    translated = translated.replaceAll("fr  u", "wife");
+  }
+  if (translated.includes("Fr  u")) {
+    translated = translated.replaceAll("Fr  u", "Wife");
+  }
+  if (translated.includes("ok  ej")) {
+    translated = translated.replaceAll("ok  ej", "okay");
+  }
+  if (translated.includes("Ok  ej")) {
+    translated = translated.replaceAll("Ok  ej", "Okay");
+  }
+  if (translated.includes("he  j")) {
+    translated = translated.replaceAll("he  j", "hey");
+  }
+  if (translated.includes("He  j")) {
+    translated = translated.replaceAll("He  j", "Hey");
+  }
+  if (translated.includes("he  j ")) {
+    translated = translated.replaceAll("he  j ", "hello ");
+  }
+  if (translated.includes("He  j ")) {
+    translated = translated.replaceAll("He  j ", "Hello ");
+  }
+  if (translated.includes("mi  n ")) {
+    translated = translated.replaceAll("mi  n ", "my ");
+  }
+  if (translated.includes("Mi  n ")) {
+    translated = translated.replaceAll("Mi  n ", "My ");
+  }
+  if (translated.includes("är ")) {
+    translated = translated.replaceAll("är ", "is ");
+  }
+  if (translated.includes("pappa ")) {
+    translated = translated.replaceAll("pappa ", "daddy ");
+  }
+  if (translated.includes("vi ")) {
+    translated = translated.replaceAll("vi ", "we ");
+  }
+  if (translated.includes("Vi ")) {
+    translated = translated.replaceAll("Vi ", "We ");
+  }
+  if (translated.includes("chef ")) {
+    translated = translated.replaceAll("chef ", "boss ");
+  }
+  if (translated.includes("Chef ")) {
+    translated = translated.replaceAll("Chef ", "Boss ");
+  }
+  if (translated.includes("restaurang")) {
+    translated = translated.replaceAll("restaurang", "restaurant");
+  }
+  if (translated.includes("Restaurang ")) {
+    translated = translated.replaceAll("Restaurang ", "Restaurant ");
+  }
+  if (translated.includes("ursäkt")) {
+    translated = translated.replaceAll("ursäkt", "excuse");
+  }
+  if (translated.includes("Ursäkt ")) {
+    translated = translated.replaceAll("Ursäkt ", "Excuse ");
+  }
+  if (translated.includes("ursäkta ")) {
+    translated = translated.replaceAll("ditt mamma ", "single mother ");
+  }
+  if (translated.includes("ditt pappa ")) {
+    translated = translated.replaceAll("ditt pappa ", "single father ");
+  }
+  if (translated.includes("ditt far")) {
+    translated = translated.replaceAll("ditt far", "your father");
+  }
+  if (translated.includes("ditt mor")) {
+    translated = translated.replaceAll("ditt mor", "your mother");
+  }
+  if (translated.includes("ditt mamma")) {
+    translated = translated.replaceAll("ditt mamma", "your mother");
+  }
+  if (translated.includes("ditt pappa")) {
+    translated = translated.replaceAll("ditt pappa", "your father");
+  }
+  if (translated.includes("inte")) {
+    translated = translated.replaceAll("inte", "not");
+  }
+  if (translated.includes("Inte ")) {
+    translated = translated.replaceAll("Inte ", "Not ");
+  }
+  if (translated.includes("pengar")) {
+    translated = translated.replaceAll("pengar", "money");
+  }
+  if (translated.includes("Pengar ")) {
+    translated = translated.replaceAll("Pengar ", "Money ");
+  }
+  if (translated.includes("väska")) {
+    translated = translated.replaceAll("väska", "bag");
+  }
+  if (translated.includes("Väska ")) {
+    translated = translated.replaceAll("Väska ", "Bag ");
+  }
+  if (translated.includes("hjälp")) {
+    translated = translated.replaceAll("hjälp", "help");
+  }
+  if (translated.includes("Hjälp ")) {
+    translated = translated.replaceAll("Hjälp ", "Help ");
+  }
+  if (translated.includes("dö")) {
+    translated = translated.replaceAll("dö", "die");
+  }
+  if (translated.includes("Dö ")) {
+    translated = translated.replaceAll("Dö ", "Die ");
+  }
+  if (translated.includes("jag dör")) {
+    translated = translated.replaceAll("jag dör", "am dying");
+  }
+  if (translated.includes("döende")) {
+    translated = translated.replaceAll("döende", "dying");
+  }
+  if (translated.includes("Döende ")) {
+    translated = translated.replaceAll("Döende ", "Dying ");
+  }
+  if (translated.includes("nötter")) {
+    translated = translated.replaceAll("nötter", "nuts");
+  }
+  if (translated.includes("Nötter ")) {
+    translated = translated.replaceAll("Nötter ", "Nuts ");
+  }
+  if (translated.includes("saftig")) {
+    translated = translated.replaceAll("saftig", "juicy");
+  }
+  if (translated.includes("Saftig ")) {
+    translated = translated.replaceAll("Saftig ", "Juicy ");
+  }
+  if (translated.includes("chef")) {
+    translated = translated.replaceAll("chef", "boss");
+  }
+  if (translated.includes("Boss ")) {
+    translated = translated.replaceAll("Boss ", "Chef ");
+  }
+  if (translated.includes("restaurang")) {
+    translated = translated.replaceAll("restaurang", "restaurant");
+  }
+  if (translated.includes("Restaurant ")) {
+    translated = translated.replaceAll("Restaurant ", "Restaurang ");
+  }
+  if (translated.includes("ursäkt")) {
+    translated = translated.replaceAll("ursäkt", "excuse");
+  }
+  if (translated.includes("Ursäkt ")) {
+    translated = translated.replaceAll("Ursäkt ", "Excuse ");
+  }
+  if (translated.includes("ursäkta ")) {
+    translated = translated.replaceAll("ursäkta ", "excuse ");
+  }
+  if (translated.includes("Ursäkta ")) {
+    translated = translated.replaceAll("Ursäkta ", "Excuse ");
+  }
+  if (translated.includes("Behöver ")) {
+    translated = translated.replaceAll("Behöver ", "Need ");
+  }
+  if (translated.includes("need ")) {
+    translated = translated.replaceAll("need ", "behoöver ");
+  }
+  if (translated.includes("Ny ")) {
+    translated = translated.replaceAll("Ny ", "New ");
+  }
+  if (translated.includes("n ")) {
+    translated = translated.replaceAll("n ", "new ");
+  }
+  if (translated.includes("New ")) {
+    translated = translated.replaceAll("New ", "N ");
+  }
+  if (translated.includes("n ")) {
+    translated = translated.replaceAll("n ", "N ");
+  }
+  if (translated.includes("Bil ")) {
+    translated = translated.replaceAll("Bil ", "Car ");
+  }
+  if (translated.includes("bil ")) {
+    translated = translated.replaceAll("bil ", "car ");
+  }
+  if (translated.includes("Katt ")) {
+    translated = translated.replaceAll("Katt ", "Cat ");
+  }
+  if (translated.includes("katt ")) {
+    translated = translated.replaceAll("katt ", "cat ");
+  }
+  if (translated.includes("Hund ")) {
+    translated = translated.replaceAll("Hund ", "Dog ");
+  }
+  if (translated.includes("hund ")) {
+    translated = translated.replaceAll("hund ", "dog ");
+  }
+  if (translated.includes("Stad ")) {
+    translated = translated.replaceAll("Stad ", "City ");
+  }
+  if (translated.includes("stad ")) {
+    translated = translated.replaceAll("stad ", "city ");
+  }
+  if (translated.includes("Gammal ")) {
+    translated = translated.replaceAll("Gammal ", "Old ");
+  }
+  if (translated.includes("gammal ")) {
+    translated = translated.replaceAll("gammal ", "old ");
+  }
+  if (translated.includes("Dy r  ")) {
+    translated = translated.replaceAll("Dy r  ", "Expensive ");
+  }
+  if (translated.includes("dy r ")) {
+    translated = translated.replaceAll("dy r ", "expensive");
+  }
+  if (translated.includes("Intressant ")) {
+    translated = translated.replaceAll("Intressant ", "Interesting ");
+  }
+  if (translated.includes("intressant")) {
+    translated = translated.replaceAll("intressant", "interesting");
+  }
+  if (translated.includes("vad")) {
+    translated = translated.replaceAll("vad", "what");
+  }
+  if (translated.includes("Vad ")) {
+    translated = translated.replaceAll("Vad ", "What ");
+  }
+  if (translated.includes("Vad fan")) {
+    translated = translated.replaceAll("Vad fan", "What the fuck");
+  }
+  if (translated.includes("Vad Fan")) {
+    translated = translated.replaceAll("Vad Fan", "What the fuck");
+  }
+  if (translated.includes("vad fan")) {
+    translated = translated.replaceAll("vad fan", "what the fuck");
+  }
+  if (translated.includes("fånig")) {
+    translated = translated.replaceAll("fånig", "goofy");
+  }
+  if (translated.includes("Fånig ")) {
+    translated = translated.replaceAll("Fånig ", "Goofy ");
+  }
+  if (translated.includes("mamma")) {
+    translated = translated.replaceAll("mamma", "mom");
+  }
+  if (translated.includes("Mamma ")) {
+    translated = translated.replaceAll("Mamma ", "Mom ");
+  }
+  if (translated.includes("Mamma!")) {
+    translated = translated.replaceAll("Mamma!", "Mom!");
+  }
+  if (translated.includes("Mamma?")) {
+    translated = translated.replaceAll("Mamma?", "Mom?");
+  }
+  if (translated.includes("Mamma.")) {
+    translated = translated.replaceAll("Mamma.", "Mom.");
+  }
+  if (translated.includes("Mamma;")) {
+    translated = translated.replaceAll("Mamma;", "Mom;");
+  }
+  if (translated.includes("din mamma ")) {
+    translated = translated.replaceAll("din mamma ", "your mom ");
+  }
+  if (translated.includes("Din Mamma ")) {
+    translated = translated.replaceAll("Din Mamma ", "Your Mom ");
+  }
+  if (translated.includes("Din mamma ")) {
+    translated = translated.replaceAll("Din mamma ", "Your mom ");
+  }
+  if (translated.includes("din Mamma ")) {
+    translated = translated.replaceAll("din Mamma ", "your Mom ");
+  }
+  if (translated.includes("söt")) {
+    translated = translated.replaceAll("söt", "cute");
+  }
+  if (translated.includes("Söt ")) {
+    translated = translated.replaceAll("Söt ", "Cute ");
+  }
+  if (translated.includes("snäll")) {
+    translated = translated.replaceAll("snäll", "nice");
+  }
+  if (translated.includes("Snäll ")) {
+    translated = translated.replaceAll("Snäll ", "Nice ");
+  }
+  if (translated.includes("snäll")) {
+    translated = translated.replaceAll("snäll", "kind");
+  }
+  if (translated.includes("Snäll ")) {
+    translated = translated.replaceAll("Snäll ", "Kind ");
+  }
+  if (translated.includes("bra")) {
+    translated = translated.replaceAll("bra", "good");
+  }
+  if (translated.includes("Bra ")) {
+    translated = translated.replaceAll("Bra ", "Good ");
+  }
+  if (translated.includes("morgon")) {
+    translated = translated.replaceAll("morgon", "morning");
+  }
+  if (translated.includes("Morgon ")) {
+    translated = translated.replaceAll("Morgon ", "Morning ");
+  }
+  if (translated.includes("kväll")) {
+    translated = translated.replaceAll("kväll", "evening");
+  }
+  if (translated.includes("Kväll ")) {
+    translated = translated.replaceAll("Kväll ", "Evening ");
+  }
+  if (translated.includes("natt")) {
+    translated = translated.replaceAll("natt", "night");
+  }
+  if (translated.includes("Natt ")) {
+    translated = translated.replaceAll("Natt ", "Night ");
+  }
+  if (translated.includes("God morgon ")) {
+    translated = translated.replaceAll("God morgon ", "Good morning ");
+  }
+  if (translated.includes("God Morgon ")) {
+    translated = translated.replaceAll("God Morgon ", "Good Morning ");
+  }
+  if (translated.includes("god Morgon ")) {
+    translated = translated.replaceAll("god Morgon ", "good Morning ");
+  }
+  if (translated.includes("god morgon ")) {
+    translated = translated.replaceAll("god morgon ", "good morning ");
+  }
+  if (translated.includes("God kväll ")) {
+    translated = translated.replaceAll("God kväll ", "Good evening ");
+  }
+  if (translated.includes("God Kväll ")) {
+    translated = translated.replaceAll("God Kväll ", "Good Evening ");
+  }
+  if (translated.includes("god Kväll ")) {
+    translated = translated.replaceAll("god Kväll ", "good kväll ");
+  }
+  if (translated.includes("god kväll ")) {
+    translated = translated.replaceAll("god kväll ", "good evening ");
+  }
+  if (translated.includes("Godnatt ")) {
+    translated = translated.replaceAll("Godnatt ", "Good night ");
+  }
+  if (translated.includes("God Natt ")) {
+    translated = translated.replaceAll("God Natt ", "Good Night ");
+  }
+  if (translated.includes("god Natt ")) {
+    translated = translated.replaceAll("god Natt ", "good Night ");
+  }
+  if (translated.includes("god natt ")) {
+    translated = translated.replaceAll("god natt ", "good night ");
+  }
+  if (translated.includes("söt")) {
+    translated = translated.replaceAll("söt", "cute");
+  }
+  if (translated.includes("Söt ")) {
+    translated = translated.replaceAll("Söt ", "Cute ");
+  }
+  if (translated.includes("kärlek")) {
+    translated = translated.replaceAll("kärlek", "love");
+  }
+  if (translated.includes("Kärlek ")) {
+    translated = translated.replaceAll("Kärlek ", "Love ");
+  }
+  if (translated.includes("förälskad")) {
+    translated = translated.replaceAll("förälskad", "in love");
+  }
+  if (translated.includes("förälskad")) {
+    translated = translated.replaceAll("förälskad", "in love");
+  }
+  if (translated.includes("with")) {
+    translated = translated.replaceAll("with", "med");
+  }
+  if (translated.includes("With ")) {
+    translated = translated.replaceAll("With ", "Med ");
+  }
+  if (translated.includes("din syster")) {
+    translated = translated.replaceAll("din syster", "your sister");
+  }
+  if (translated.includes("fatan")) {
+    translated = translated.replaceAll("father", "father");
+  }
+  if (translated.includes("ditt far ")) {
+    translated = translated.replaceAll("ditt far ", "Ditt faräter ");
+  }
+  if (translated.includes("han är")) {
+    translated = translated.replaceAll("he is", "han är");
+  }
+  if (translated.includes("hans ")) {
+    translated = translated.replaceAll("his", "hans");
+  }
+  if (translated.includes("Hans ")) {
+    translated = translated.replaceAll("His", "Hans");
+  }
+  if (translated.includes(" hans")) {
+    translated = translated.replaceAll("his", "hans");
+  }
+  if (translated.includes("Han är ")) {
+    translated = translated.replaceAll("Hejs ", "That ");
+  }
+  if (translated.includes("Langish!")) {
+    translated = translated.replaceAll("Langish!", "Langley!");
+  }
+  if (translated.includes("Inte ")) {
+    translated = translated.replaceAll("Inte ", "Not ");
+  }
+  if (translated.includes("s")) {
+    translated = translated.replaceAll("'s", "s");
+  }
+  if (translated.includes("håll käften")) {
+    translated = translated.replaceAll("håll käften", "shut up");
+  }
+  if (translated.includes("Håll käften")) {
+    translated = translated.replaceAll("Håll käften", "Shut up");
+  }
+  if (translated.includes("no ")) {
+    translated = translated.replaceAll("no ", "nej ");
+  }
+  if (translated.includes("No ")) {
+    translated = translated.replaceAll("No ", "Nej ");
+  }
+  if (translated.includes("gillar")) {
+    translated = translated.replaceAll("gillar", "like");
+  }
+  if (translated.includes("Gillar")) {
+    translated = translated.replaceAll("Gillar", "Like");
+  }
+  if (translated.includes("ett ")) {
+    translated = translated.replaceAll("ett ", "one ");
+  }
+  if (translated.includes("Ett ")) {
+    translated = translated.replaceAll("Ett ", "One ");
+  }
+  if (translated.includes("stäng ")) {
+    translated = translated.replaceAll("stäng ", "shut ");
+  }
+  if (translated.includes("Stäng ")) {
+    translated = translated.replaceAll("Stäng ", "Shut ");
+  }
+  if (translated.includes("upp")) {
+    translated = translated.replaceAll("upp", "up");
+  }
+  if (translated.includes("Up")) {
+    translated = translated.replaceAll("Up", "upp");
+  }
+  if (translated.includes("handla om")) {
+    translated = translated.replaceAll("handla om", "about");
+  }
+  if (translated.includes("Handla om")) {
+    translated = translated.replaceAll("Handla om", "About");
+  }
+  if (translated.includes("Sperma")) {
+    translated = translated.replaceAll("Sperma", "Cum");
+  }
+  if (translated.includes("sperma")) {
+    translated = translated.replaceAll("sperma", "cum");
+  }
+  if (translated.includes("Sperma")) {
+    translated = translated.replaceAll("Sperma", "Cum");
+  }
+  if (translated.includes("hata ")) {
+    translated = translated.replaceAll("hata ", "hate ");
+  }
+  if (translated.includes("Hata ")) {
+    translated = translated.replaceAll("Hata ", "Hate ");
+  }
+  if (translated.includes("ner ")) {
+    translated = translated.replaceAll("ner ", "down ");
+  }
+  if (translated.includes("Ner ")) {
+    translated = translated.replaceAll("Ner ", "Down ");
+  }
+  if (translated.includes("verklig ")) {
+    translated = translated.replaceAll("verklig ", "real ");
+  }
+  if (translated.includes("Verklig ")) {
+    translated = translated.replaceAll("Verklig ", "Real ");
+  }
+  if (translated.includes("hjälp")) {
+    translated = translated.replaceAll("hjälp", "help");
+  }
+  if (translated.includes("Hjälp")) {
+    translated = translated.replaceAll("Hjälp", "Help");
+  }
+  if (translated.includes("dö")) {
+    translated = translated.replaceAll("dö", "die");
+  }
+  if (translated.includes("Dö")) {
+    translated = translated.replaceAll("Dö", "Die");
+  }
+  if (translated.includes("jag dör")) {
+    translated = translated.replaceAll("jag dör", "am dying");
+  }
+  if (translated.includes("döende")) {
+    translated = translated.replaceAll("döende", "dying");
+  }
+  if (translated.includes("Döende")) {
+    translated = translated.replaceAll("Döende", "Dying");
+  }
+  if (translated.includes("nötter")) {
+    translated = translated.replaceAll("nötter", "nuts");
+  }
+  if (translated.includes("Nötter")) {
+    translated = translated.replaceAll("Nötter", "Nuts");
+  }
+  if (translated.includes("saftig")) {
+    translated = translated.replaceAll("saftig", "juicy");
+  }
+  if (translated.includes("Saftig")) {
+    translated = translated.replaceAll("Saftig", "Juicy");
+  }
+  if (translated.includes("chef")) {
+    translated = translated.replaceAll("chef", "boss");
+  }
+  if (translated.includes("Boss")) {
+    translated = translated.replaceAll("Boss", "Chef");
+  }
+  if (translated.includes("restaurang")) {
+    translated = translated.replaceAll("restaurang", "restaurant");
+  }
+  if (translated.includes("Restaurant")) {
+    translated = translated.replaceAll("Restaurant", "Restaurang");
+  }
+  if (translated.includes("ursäkt")) {
+    translated = translated.replaceAll("ursäkt", "excuse");
+  }
+  if (translated.includes("Ursäkt")) {
+    translated = translated.replaceAll("Ursäkt", "Excuse");
+  }
+  if (translated.includes("ursäkta")) {
+    translated = translated.replaceAll("ursäkta", "excuse");
+  }
+  if (translated.includes("Ursäkta")) {
+    translated = translated.replaceAll("Ursäkta", "Excuse");
+  }
+  if (translated.includes("Behöver")) {
+    translated = translated.replaceAll("Behöver", "Need");
+  }
+  if (translated.includes("Bil")) {
+    translated = translated.replaceAll("Bil", "Car");
+  }
+  if (translated.includes("Katt")) {
+    translated = translated.replaceAll("Katt", "Cat");
+  }
+  if (translated.includes("Hund")) {
+    translated = translated.replaceAll("Hund", "Dog");
+  }
+  if (translated.includes("Stad")) {
+    translated = translated.replaceAll("Stad", "City");
+  }
+  if (translated.includes("Gammal")) {
+    translated = translated.replaceAll("Gammal", "Old");
+  }
+  if (translated.includes("Expensive")) {
+    translated = translated.replaceAll("Expensive", "Dy r ");
+  }
+  if (translated.includes("Intressant")) {
+    translated = translated.replaceAll("Intressant", "Interesting");
+  }
+  if (translated.includes("vad")) {
+    translated = translated.replaceAll("vad", "what");
+  }
+  if (translated.includes("Vad")) {
+    translated = translated.replaceAll("Vad", "What");
+  }
+  if (translated.includes("vad fan")) {
+    translated = translated.replaceAll("vad fan", "what the fuck");
+  }
+  if (translated.includes("Vad Fan")) {
+    translated = translated.replaceAll("Vad Fan", "What the fuck");
+  }
+  if (translated.includes("vad fan")) {
+    translated = translated.replaceAll("vad fan", "what the fuck");
+  }
+  if (translated.includes("fånig")) {
+    translated = translated.replaceAll("fånig", "goofy");
+  }
+  if (translated.includes("Fånig")) {
+    translated = translated.replaceAll("Fånig", "Goofy");
+  }
+  if (translated.includes("mamma")) {
+    translated = translated.replaceAll("mamma", "mom");
+  }
+  if (translated.includes("Mamma")) {
+    translated = translated.replaceAll("Mamma", "Mom");
+  }
+  if (translated.includes("Mamma!")) {
+    translated = translated.replaceAll("Mamma!", "Mom!");
+  }
+  if (translated.includes("Mamma?")) {
+    translated = translated.replaceAll("Mamma?", "Mom?");
+  }
+  return translated;
+}
